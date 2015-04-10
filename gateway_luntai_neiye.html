@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="icon" href="../../favicon.ico">
+
+		<title>领信样式模板</title>
+
+		<!--***** “space-css.js” 为公用CSS库对应项目里的"space-css.jsp"由前端维护-不需要引用该文件 *****-->
+		<script type="text/JavaScript" src="space-css.js"></script>
+		<!--***** “space-css.js” 为公用CSS库对应项目里的"space-css.jsp"由前端维护-不需要引用该文件 *****-->
+
+
+	</head>
+
+	<body class="bureau-body gateway-body">
+		<div class="bottom_tools">
+  <a id="scrollUp" href="javascript:;"></a>
+</div>
+
+		<div class="navbar navbar-zhijiao navbar-bureau navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+				</div>
+				<div class="navbar-collapse collapse">
+					<div class="logobg"></div>
+					<ul class="nav navbar-nav" style="position: relative;padding-left: 180px;">
+						<!--<li>
+							<a title="" data-original-title="" href="#">
+								<span class="lx-logo"></span>
+								<span style="float: right;margin-left: 5px;">领信教育网</span>
+							    <div class="clearfix"></div>
+							</a>
+						</li>-->
+						<li>
+							<a href="#about">个人空间</a>
+						</li>
+						<li>
+							<a href="#contact">班级空间</a>
+						</li>
+						<li>
+							<a href="#contact">我的班级</a>
+						</li>
+						<li class="dropdown" style="position:initial;">
+							<a data-toggle="dropdown" class="dropdown-toggle" href="#"> 机构导航 <span class="caret"></span></a>
+							<ul role="menu" class="dropdown-menu container mechanism-navigation">
+								<li class="clearfix">
+									<ul class="inline-block-ul col-md-12">
+										<li class="col-md-2">我的机构：</li>
+										<li class="col-md-2">
+											<a>华容六中</a>
+											<div class="san3"></div>
+										</li>
+										<li class="col-md-2">
+											<a>华容县</a>
+											<div class="san3"></div>
+										</li>
+										<li class="col-md-2">
+											<a>岳阳市</a>
+											<div class="san3"></div>
+										</li>
+
+									</ul>
+								</li>
+								<li class="clearfix">
+									<ul class="inline-block-ul col-md-12">
+										<li class="col-md-2">我的机构：</li>
+										<li class="col-md-2">
+											<a>华容六中</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">登陆</a>
+						</li>
+
+						<li class="dropdown">
+							<a data-toggle="dropdown" class="dropdown-toggle" href="#"> 设置 <span class="caret"></span></a>
+							<ul role="menu" class="dropdown-menu">
+								<li><a href="#">Action</a>
+								</li>
+								<li><a href="#">Another action</a>
+								</li>
+								<li><a href="#">Something else here</a>
+								</li>
+								<li class="divider"></li>
+								<li><a href="#">Separated link</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<!--/.nav-collapse -->
+			</div>
+		</div>
+
+		<div class="container bureau-navlist">
+			<!--<img  src="img/推进教育信息化.jpg"/>-->
+		</div>
+       <div class="container clear-padding " style="background: none repeat scroll 0% 0% #FFF;padding: 20px 20px 0px !important;">
+	              <div class="col-md-12 bbs">
+                    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">写日志</h3>
+      </div>
+      <div class="panel-body">
+
+          <input type="text" class="form-control" placeholder="填写日志标题">
+
+          <textarea style="width:100%; height:200px; margin:10px auto; ">发布话题</textarea>
+
+           <ul class="inline-block-ul">
+            <li>
+              日志分类:
+              <select class="select2-box" style="width:250px;">
+                <optgroup label="目录一">
+                   <option value="AL">二级目录</option>
+                   <option value="WY">二级目录</option>
+                   <option value="WY">二级目录</option>
+               </optgroup>
+               <optgroup label="目录二">
+                   <option value="AL">二级目录</option>
+                   <option value="WY">二级目录</option>
+                   <option value="WY">二级目录</option>
+               </optgroup>
+              </select>
+            </li>
+            <li>
+              <div class="btn btn-primary" data-toggle="buttons">
+                 上传附件
+              </div>
+            </li>
+            
+        </ul>
+
+        <ul class="wz-edit-button-area clearfix">
+          <li class="float-left"><input type="submit" style="width:100px;" class="btn btn-sm btn-primary" value="发 表"></li>
+          <li class="float-left"><a class="btn btn-sm btn-danger " onclick="cancelDiary();" href="#">取 消</a></li>
+          <li class="float-right"><a class="btn btn-sm btn-primary" onclick="save_cg();" href="#">保存草稿</a></li>
+        </ul>
+
+      </div>
+    </div>
+                  </div>
+		</div>
+			
+		<!--常用链接-->
+		<div class="c-link edu-gateway">
+		  <div class=" container">
+	          <div class="col-md-3">
+	          	<div class="c-link-title">关注我们</div>
+	          	<ul class="c-link-ul clear-padding">
+	          		<li><i class="fa fa-weixin"></i> 微信</li>
+	          		<li><i class="fa fa-tencent-weibo"></i> 微信</li>
+	          		<li><i class="fa fa-weibo"></i> 微信</li>
+	          	</ul>
+	          </div>
+	          <div class="col-md-3">
+	          	<div class="c-link-title">关注我们</div>
+	          	<ul class="c-link-ul clear-padding">
+	          		<li>
+	          			<i class="fa fa-phone"></i>
+	          			400 000 000
+	          		</li>
+	          		<li>
+	          			<i class="fa fa-envelope"></i>
+	          			微信
+	          		</li>
+	          	</ul>
+	          </div>
+	      </div>
+		</div>
+		<!-- 底部 -->
+		<div class="container-fluid footer footer-grayline" style="display: block;">
+			<div class="">
+				<div class="col-md-12">Copyright @ 2011-2015 湖南领信教育网络发展有限公司版权所有 湘ICP备14001031号</div>
+			</div>
+		</div>
+
+		<!--***** 程序猿们，睁大你们的钛合金猿眼，“space-footer-css.js” 为公用JS库对应项目里的"space-footer-css.jsp"由前端维护-不需要引用该文件 *****-->
+		<script type="text/JavaScript" src="space-footer-css.js"></script>
+		<!--***** 程序猿们，睁大你们的钛合金猿眼，“space-footer-css.js” 为公用JS库对应项目里的"space-footer-css.jsp"由前端维护-不需要引用该文件 *****-->
+		<script type="text/javascript" src="js/zzsc.js"></script>
+		<script type="text/javascript" src="js/jquery.pause.min.js"></script>
+		<script type="text/javascript" src="js/weiboscroll.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/gateway_new.css" media="screen">
+		<link href="css/shouye.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="libs/gundong/js/jjjj.js"></script>
+		<link rel="stylesheet" type="text/css" href="libs/gundong/css/set2.css" />
+		<script type="text/javascript" src="js/top-top.js"></script>
+		<script>
+			(function($) {
+				$(function() {
+					$('.navchain li a').hover(function() {
+						$('.navwz', this).stop().fadeIn(200);
+						$('.navwz h1', this).stop().animate({
+							'top': '0'
+						}, 400);
+						$('.navwz h2', this).stop().animate({
+							'top': '0'
+						}, 400);
+					}, function() {
+						$('.navwz', this).stop().fadeOut(400);
+						$('.navwz h1', this).stop().animate({
+							'top': '-68px'
+						}, 400);
+						$('.navwz h2', this).stop().animate({
+							'top': '68px'
+						}, 400);
+					})
+
+				})
+			})(jQuery);
+
+
+
+			jQuery(window).resize(function() {
+				if (typeof indexSlides != 'undefined' && indexSlides.reformat)
+					indexSlides.reformat();
+				qfzy();
+			});
+		</script>
+		<script type="text/javascript">
+			marqueeStart(1, "left");
+		</script>
+		<script type="text/javascript">
+			marqueeStart(2, "up");
+		</script>
+
+	</body>
+
+</html>

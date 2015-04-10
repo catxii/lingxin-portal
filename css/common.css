@@ -1,0 +1,154 @@
+.tip-info{
+	background:#F5F5F5;
+	color:#8F5700;
+	padding:6px;
+}
+.tip-tip{
+	width:24px;
+	height:16px;
+	float:left;
+}
+
+
+.form_table
+{
+border-collapse: collapse;
+border:1px solid #AEC2CD;
+background:#F7FDFD;
+padding-left:1px;
+}
+.form_table td
+{
+height:30px;
+border:1px solid #AEC2CD;
+}
+.form_bottom /* the bottom of form table */
+{
+padding:5px 0 5px 8px;
+background:#F5F5F5;
+text-align:center;
+}
+.form_label
+{
+background:#EBF3F5;
+text-align:right;
+}
+
+
+ul#navigation {
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    right: 10px;
+    list-style: none;
+    z-index:999999;
+	float:right;
+}
+ul#navigation li {
+    width: 86px;
+    display:inline;
+    float:left;
+	background:url(./images/bg_navli.png) bottom no-repeat;
+	margin-left:4px;
+}
+ul#navigation li a {
+    display: block;
+    float:left;
+    margin-top: -2px;
+    width: 85px;
+    height: 24px;
+    background-repeat:no-repeat;
+    background-position:50% 10px;
+    text-decoration:none;
+    text-align:center;
+    padding-top:50px;  
+}
+ul#navigation li a:hover{
+	}
+ul#navigation li a span{
+    letter-spacing:2px;
+    font-size:12px;
+	font-weight:bold;
+    color:#fff;      
+}
+ul#navigation .home a{
+    background-image: url(./images/ico_yygl.png);
+}
+ul#navigation .hmdgl a      {
+    background-image: url(./images/ico_hmdgl.png);
+}
+ul#navigation .tsgl a      {
+    background-image: url(./images/ico_tsgl.png);
+}
+ul#navigation .dxgl a      {
+    background-image: url(./images/ico_dxgl.png);
+}
+ul#navigation .fbgl a   {
+    background-image: url(./images/ico_fbgl.png);
+}
+ul#navigation .tjbb a     {
+    background-image: url(./images/ico_tjbb.png);
+}
+ul#navigation .xtgl a    {
+    background-image: url(./images/ico_xtgl.png);
+}
+
+.toplink {
+    background: url("./images/bg_toplink_m.gif") repeat scroll 0 0 transparent;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+.toplink .left {
+    background: no-repeat scroll left center transparent;
+    display: block;
+    float: left;
+    height: 47px;
+    line-height: 47px;
+    width: 650px;
+}
+.toplink .left span {
+    color: #CCCCCC;
+    line-height: 47px;
+    padding-left: 10px;
+    text-align: left;
+    padding-bottom:10;
+}
+.toplink .right {
+    background: no-repeat scroll right center transparent;
+    display: block;
+    float: right;
+    height: 47px;
+    line-height: 47px;
+    width: 350px;
+}
+.toplink .right span {
+    color: #CCCCCC;
+    float: right;
+    line-height: 47px;
+    padding-right: 50px;
+    text-align: right;
+}
+.mutiSelect 
+     { 
+         width: 100%;              
+         height: 220px; 
+         border: 1px solid;
+     } 
+    
+.floatDiv
+{ 
+	width: 160px; 
+	float: left; 
+} 
+.floatDiv2 
+{ 
+	width: 120px; 
+	float: left; 
+} 
+.btn 
+{ 
+	display: block; 
+	/* width: 80px;  */
+} 

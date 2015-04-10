@@ -1,0 +1,34 @@
+﻿.none{ display:none; }
+/*menu*/
+.content_bottom_box{position:absolute; bottom:30px; left:52%;min-height:25px; z-index:99; margin-left:-502px;}
+.tig_box{ height:130px; background:#fff; width:240px; overflow:hidden; }
+.tig_box dl{ position:relative; width:240px; overflow:hidden; }
+.tig_box dl dt{margin-left:0px;width:100px;height:112px;position:absolute;right:0;top:0;}
+.tig_box dl dd{font-size:12px;color:#464646;padding-top: 20px;padding-right: 0px;padding-bottom: 0px;padding-left:12px;position:relative;z-index:1;}
+.tig_box dl dd p{padding:2px 0;}
+.tig_box dl dd a{ display:block; line-height:1.5;}
+.tig_box dl dd a.index_more{ text-align:right; color:#e50112; font-size:12px; }
+.content_bottom_tig{width:245px;height:25px;position:absolute;overflow:hidden;font-family: "微软雅黑";}
+.place1{ left:0px; bottom:0px;  }
+.place2{ left:245px; bottom:0px;  }
+.place3{ left:490px; bottom:0px;  }
+.place4{ left:735px; bottom:0px;  }
+.content_bottom_tig h4{ height:25px; }
+.content_bottom_tig h4 a{display:block;height:25px;line-height:25px; padding-left:6px; background:url(../images/btnbg2.png) no-repeat -248px; font-size:12px; color:#333; }
+.content_bottom_tig h4 a:hover,.content_bottom_tig h4 a.hover{background:url(../images/btnbg2.png) no-repeat left; color:#fff; }
+/*banner*/
+.bureau-banner{ min-width:1003px;height:410px; position:relative; margin:0 auto; overflow:hidden; z-index:1;}
+.banner_pre_next{position:relative;z-index:101;top:151px;display:none;}
+.banner_pre_next .banner_btn_left{position:absolute;left:3%;color:#fff;font:bold 80px/normal simsun;}
+.banner_pre_next .banner_btn_right{position:absolute;right:3%;color:#fff;font:bold 80px/normal simsun;}
+.banner_pre_next .banner_btn_right:hover,.banner_pre_next .banner_btn_left:hover{color:#C00;}
+.yq_banner_list{ height:25px;position:absolute; bottom:15px; text-align:right; z-index:100; right:22px; }
+.yq_banner_list a{text-decoration: none; display:inline-block; width:16px; height:16px;/*background:url(../img/bureau-img/i_dot.32.png) no-repeat left;*/ background:none repeat scroll 0% 0% rgba(204, 204, 204, 0.31); border-radius: 50%; margin-left: 6px !important;}
+.yq_banner_list a:hover,.yq_banner_list a.hover{/*background:url(../img/bureau-img/i_dot_hover.32.png) no-repeat right;*/ background: #fff; border-radius: 50%;box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.55); }
+.banner_show{ width:100%; text-align:center; height:410px; overflow:hidden; position:relative;background:#E3F2FA;}
+.bannger_inbox{ position:absolute; left:50%; top:0;}
+.banner_mag{width:500px;height:170px;position:absolute;left:53%;bottom:35px;text-align:left;z-index:99;font-family: "微软雅黑";}
+.banner_magbox{width:500px;height:170px;background:url(../img/bureau-img/ico3.png) repeat;text-align:left;padding: 7px 25px 25px;border-right: 6px solid #ff9900;}
+.banner_magbox h4{ font-size:20px;*font-size:18px; font-weight:bold; color:#fff; margin-bottom:10px;text-align: center; }
+.banner_magbox p{font-size:12px;color:#fff;font-weight:normal;margin-bottom:12px;height: 35px;overflow: hidden;}
+.banner_magbox h4 > a > i.fa{color: #FF9D50;}
