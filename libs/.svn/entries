@@ -1,0 +1,61 @@
+10
+
+dir
+9009
+svn://liangyl@172.16.50.93/hndevelop/projectmanage/dev_version/version1.0/portal/WebContent/libs
+svn://liangyl@172.16.50.93/hndevelop/projectmanage/dev_version/version1.0
+
+
+
+2015-04-08T06:35:02.977429Z
+9007
+gongxj
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+20311fdf-e8fa-4d74-bf0a-37799b7e8780
+
+Zebra-Dialog
+dir
+
+angularjs
+dir
+
+bootstrap
+dir
+
+font-awesome
+dir
+
+glyphicons
+dir
+
+gundong
+dir
+
+jquery-easyui-1.3.3
+dir
+
+kindeditor-4.1.10
+dir
+
+products
+dir
+
+select2
+dir
+
+ueditor
+dir
+
