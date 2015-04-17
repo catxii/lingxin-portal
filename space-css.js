@@ -29,6 +29,7 @@ var filegroup = [
 	// Custom styles for this template 
     "<link href='css/style-feng.css' rel='stylesheet'>", 
 	"<link href='css/style-guolei.css' rel='stylesheet'>", 
+	"<link href='css/style-v1.css' rel='stylesheet'>", 
 	"<link rel='stylesheet' media='screen and (max-width: 900px)' href='css/response.css' />",
 
 	// 空间装扮样式
