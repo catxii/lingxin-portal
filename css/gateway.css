@@ -141,7 +141,7 @@ top: 0;
 left: 0;
 }
 .navbar-bureau{
-	background: none repeat scroll 0% 0% #F6F6F6;
+	background: linear-gradient(-90deg, #818593 0%, #5A6174 100%) repeat scroll 0% 0% rgba(0, 0, 0, 0);
 height: 30px;
 min-height: 30px;
 box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
@@ -151,13 +151,13 @@ box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
 }
 
 .navbar-bureau .navbar-nav > li > a:hover,.navbar-bureau .navbar-nav > li > a:focus,.navbar-bureau .navbar-nav > li.active > a{
-	background-color: #fff !important;
+	background-color: #565D6C !important;
 }
 
 .navbar-bureau .navbar-nav > li > a{
 	line-height: 12px !important;
-padding: 9px 20px;
-color: #626262 !important;
+padding: 9px 12px;
+color: #fff !important;
 font-size: 12px;
 text-shadow: none !important;
 }
@@ -359,7 +359,7 @@ color: #FFF;
 
 /*导航*/
 .nav-dao{
-background: none repeat scroll 0% 0% #fff;
+background: none repeat scroll 0% 0% #FBFBFB;
 border-bottom: 3px solid #E1E1E1;
 border-top: 1px solid #F0F0F0;
 }
@@ -417,8 +417,9 @@ ul.nav-gateway > li:hover a,ul.nav-gateway > li:active a{
 	color: #fff !important;
 }
 ul.nav-gateway > li a{
-	font-weight: 900;
-	font-size: 14px;
+	font-size: 15px;
+font-family: "微软雅黑";
+font-weight: 400;
 }
 
 /*首页滚动*/
@@ -1642,6 +1643,11 @@ float: left;
 text-align: center;
 width: 250px;
 padding: 0;
+box-shadow: 0px 2px 4px #DBDBDB;
+}
+#scroll .item > img{
+	width: 250px;
+	height: 340px;
 }
 #scroll .shd{position:absolute;left:0;top:0;width:100%;height:100%;background-color:rgba(0, 0, 0, 0.35);}
 #scroll .shd a{display:block;width:250px;height:239px;*background-image:url(about:blank);background-image:url(about:blank)\0;}
@@ -1904,7 +1910,7 @@ color: #999;
 /*新闻内页*/
 .gateway-news-details-left{
 	padding-right: 40px;
-	border-right: 1px solid #ccc;
+	border-right: 1px solid #DEDEDE;
 	box-shadow: 1px 0px 0px #fff;
 }
 .gateway-news-details-left .bureau-news-title > h5{
@@ -1974,23 +1980,36 @@ line-height: 26px;
 .gateway-news-ul{
 	height: 50px;
 background: none repeat scroll 0% 0% #FFF;
-border:1px solid #ddd;
-border-top: 2px solid #1F90DF;
-margin: 0;
+border-right: 1px solid #DDD;
+border-width: 2px 0px 1px;
+border-style: solid;
+border-color: #1F90DF rgba(221, 221, 221, 0) #ddd;
+-moz-border-top-colors: none;
+-moz-border-right-colors: none;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+border-image: none;
+margin: 0px;
+word-spacing: -4px;
 }
 .gateway-news-ul > li{
-	line-height: 50px;
+	line-height: 47px;
 	padding: 0 20px;
 font-size: 16px;
 font-weight: 900;
-border-left: 1px solid #eee;
+/*border-left: 1px solid #eee;*/
+margin-right: 0;
+}
+.gateway-news-ul > li:hover{
+	background: none repeat scroll 0% 0% #F5F5F5;
+box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.1) inset;
 }
 .gateway-news-list-content{
-	border-bottom: 1px dotted #C2C2C2;
 	padding: 0px 10px;
+	background: #fff;
 }
 .gateway-news-list-content:hover{
-	background: #fff;
+	background: none;
 }
 .gateway-news-list-content > h4 > span{
 	
@@ -2028,7 +2047,7 @@ height: 100px;
 .gateway-news-list-content-right{
 	font-size: 12px;
 line-height: 23px;
-color: #666;
+color: #999;
 }
 
 
@@ -2048,10 +2067,19 @@ text-indent: 3px;
 }
 .gateway-new-list-new > ul.gateway-new-list-contant > li{
 	background: none repeat scroll 0% 0% #FFF;
-border: 1px solid #DDD;
+border: 1px solid #EDEDED;
 float: left;
 padding: 15px 20px;
 margin: 0 5px;
+transition:border 0.5s ease 0s;
+	-webkit-transition:border 0.5s ease 0s;
+	-moz-transition:border 0.5s ease 0s;
+}
+.gateway-new-list-new > ul.gateway-new-list-contant > li:hover{
+	border: 1px solid #7FB6E4;
+	box-shadow:0 2px 4px #dbdbdb;
+	-webkit-box-shadow:0 2px 4px #dbdbdb;
+	-moz-box-shadow:0 2px 4px #dbdbdb;
 }
 .gateway-new-list-contant .ydate_2 {
     border: 1px solid #EDEAF1;
@@ -2090,4 +2118,16 @@ margin: 0 5px;
 padding-top: 8px;
 max-height: 88px;
 overflow: hidden;
+}
+.bureau-loading{
+	padding: 10px !important;
+background: none repeat scroll 0% 0% #E1F2FF;
+margin: 0px auto;
+text-align: center;
+border-radius: 10px;
+border: 1px solid #A4D9FF;
+font-weight: bold;
+width: 500px;
+cursor: pointer;
+margin: 31px auto;
 }
