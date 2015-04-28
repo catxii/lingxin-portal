@@ -139,17 +139,8 @@ border-color: #dddddd;
 
 
 /*主页登录*/
-.bg-green { /*padding-top: 0px !important;*/ background-color: #24c267;}
- .container-bg{ background: #FFF url("../img/log-content-bg.png") repeat-x 0 100%;}
-
-/*.renav{ box-shadow: none !important; border: 0px !important; }
-.renavbg-green{ background-color: #24c267; color: #fff !important; }
-.re-navbar-brand{ float: left;  padding: 10px 15px; font-size: 18px; line-height: 20px; background-color: #fff;}
-
-.renavbg-gray{ background-color: #F1F1EF; color: #666 !important; }
-
-.re-nav li a{ color: #fff; padding:27px 20px; outline: none; }
-.re-nav li a:hover, .re-nav li a:visited{ background-color: #339966 !important;}*/
+.bg-green { /*padding-top: 0px !important;*/ /* 于20150428 TOP 修改 background-color: #24c267;*/}
+/*于20150427 TOP 修改  .container-bg{ background: #FFF url("../img/log-content-bg.png") repeat-x 0 100%;} */
 
 
 /*注册*/
@@ -260,14 +251,17 @@ border-radius: 0 !important;}
 .role-right .panel-body .warn_tips i{  font-size: 20px;}
 .role-right .red-waring, .login-info .red-waring{ border: none !important; background:none !important;}
 .role-right .red-padding, .login-info .red-padding{ padding: 0px 22px;}
-.role-right .re-input-minHeight, .login-info .re-input-minHeight{min-height: 66px;  /*border: #f00 solid 1px;*/}
+.role-right .re-input-minHeight, .login-info .re-input-minHeight{min-height: 66px; }
 
 .role-right .re-input-icon, .login-info .re-input-icon{ border: none; background:none; }
 .role-right .re-input-icon .re-icon-green, .login-info .re-input-icon .re-icon-green{ color: #24c267;}
 .role-right .re-input, .login-info .re-input{ border-left: 0px; border-top: 0px; border-right: 0px; box-shadow: none; -webkit-box-shadow:none;}
 
 /*.role-right .addIDBox{ border: #24c267 solid 1px;}*/
-.role-right .addIDBox .close{ margin-right: 5px; outline: none; display: none;}
+.role-right .addIDBox{ position: relative;}
+.role-right .addIDBox .close{ outline: none; display: none; position: absolute; right: 5px; top: 0; z-index: 10;}
+.role-right .addIDBox:hover .close{ display: block;}
+.role-right .addIDBox{ border: #FFF solid 1px;}
 .role-right .addIDBox:hover{ border: #24c267 solid 1px;}
 
 /*注册警告提示*/
@@ -356,9 +350,10 @@ border-radius: 0 !important;}
 
 /*=======个人信息资料   （帐户绑定）=======*/
 
-body.gateway-body-info{ background: url(../img/portal/info_bg.png) no-repeat #bdebbc; }
+body.gateway-body-info{ background: url(../img/portal/info_bg.png) no-repeat 0px 65px #f6f6f6 !important;  }
 
-body .content-wrapper{ border: none;}
+body .content-wrapper{ border: none; }
+body .info_wrapper{ padding-bottom: 100px;}
 .content-wrapper .panel-body .form-content{ width: 500px; margin: auto;}
 .content-wrapper .panel-body .form-content .submit-btn{  margin-top: 10px; text-align: center;}
 .content-wrapper .panel-body .form-content .submit-btn button{ padding: 8px 20px;}
