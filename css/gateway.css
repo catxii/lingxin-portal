@@ -162,12 +162,6 @@ font-size: 12px;
 text-shadow: none !important;
 }
 
-.bureau-navlist{
-	height: 138px;
-	padding: 38px 0 0 0;
-	box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.12) inset !important;
-    background:url('../img/bureau-img/body_bg01.png') repeat scroll center top transparent ;
-}
 .bureau-logo{padding: 12px 0 !important;}
 
 .bureau-nav{
@@ -294,7 +288,6 @@ left: 24px;
     font-size: 60px !important;
 }
 .bureau-navlist {
-    height: 100%;
     padding: 30px 0px 0px;
    background: rgb(255, 255, 255);
     box-shadow: none !important;
@@ -1612,7 +1605,6 @@ float: left;
     background: none repeat scroll 0% 0% rgb(60, 60, 60);
     padding: 10px 0;
     border-top: 1px solid #323232;
-    height: 100%;
     color: #A2A2A2;
     display: none;
     font-size: 12px !important;
