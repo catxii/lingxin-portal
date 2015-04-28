@@ -353,6 +353,7 @@ border-radius: 0 !important;}
 body.gateway-body-info{ background: url(../img/portal/info_bg.png) no-repeat 0px 65px #f6f6f6 !important;  }
 body.gateway-body-info .btn{ display: inline-block;}
 body .content-wrapper{ border: none; }
+body .content-wrapper .panel-body{ min-height: 200px;}
 body .info_wrapper{ padding-bottom: 100px;}
 .content-wrapper .panel-body .form-content{ width: 500px; margin: auto;}
 .content-wrapper .panel-body .form-content .submit-btn{  margin-top: 10px; text-align: center;}
