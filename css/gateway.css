@@ -10,8 +10,8 @@ background-color: #F2F2F2;
 .bottom_tools{
 	position:fixed;
 	z-index:1070;
-	right:40px;
-	bottom:40px;
+	right:0px;
+	bottom:0px;
 	}
 .bottom_tools{
 	font:0/0 a;
@@ -32,35 +32,51 @@ background-color: #F2F2F2;
 	width:45px;
 	height:45px;
 	background-image:url(../img/backgrounds.32.png);
-	background-position:-54px -53px;
+	background-position:-100px -53px;
 	display:none;
 	}
 #scrollUp:hover{
 	background-image:url(../img/backgrounds.32.png);
-	background-position:-100px -53px;
+	
+	background-position:-54px -53px;
 	}
 #feedback{
 	width:45px;
 	height:45px;
 	background-image:url(../img/backgrounds.32.png);
-	background-position:-102px 0;
+	
+	background-position:-146px -46px;
 	}
 #feedback:hover{
 	background-image:url(../img/backgrounds.32.png);
-	background-position:-146px -46px;
+	background-position:-102px 0;
+	}
+#deedback{
+	width:45px;
+	height:45px;
+	background-image:url(../img/backgrounds.32.png);
+	background-position:-479px 0;
+	}
+#deedback:hover{
+	background-image:url(../img/backgrounds.32.png);
+	background-position:-534px 0px;
 	}
 .qr_tool{
 	width:45px;
 	height:45px;
 	background-image:url(../img/backgrounds.32.png);
-	background-position:-148px 0;cursor:pointer;
+	background-position: -192px -46px;
 	}
 .qr_tool:hover {
 	width: 45px;
 	height: 45px;
 	background-image: url(../img/backgrounds.32.png);
-	background-position: -192px -46px;
+	
+	background-position:-148px 0;cursor:pointer;
 	}
+.bottom_tools > *{
+	margin-top: 0;
+}
 /*侧边栏*/
 
 #goTopBtn.sidel{position:fixed;width:54px;right: 40px;bottom: 0px;z-index:999;}
@@ -160,6 +176,7 @@ padding: 9px 12px;
 color: #fff !important;
 font-size: 12px;
 text-shadow: none !important;
+font-family: "微软雅黑";
 }
 
 .bureau-logo{padding: 12px 0 !important;}
@@ -290,10 +307,12 @@ left: 24px;
 .bureau-navlist {
     padding: 30px 0px 0px;
    background: rgb(255, 255, 255);
+ 
     box-shadow: none !important;
     
 }
-
+.bureau-navlist > .container{
+}
 
 .edu-jy-header{
 	height: 24px;
@@ -342,7 +361,7 @@ letter-spacing: 1px;
 }
 .gateway-lx-b > div > i{
 	font-size: 36px;
-background: none repeat scroll 0% 0% #E67817;
+background: none repeat scroll 0% 0% #62B651;
 border-radius: 50%;
 width: 80px;
 height: 80px;
@@ -416,6 +435,32 @@ font-family: "微软雅黑";
 font-weight: 400;
 }
 
+
+
+.denglu-gateway{
+font-size: 14px;
+font-family: "微软雅黑";
+font-weight: 400;	
+height: 87px;
+}
+.denglu-gateway > ul > li{
+	line-height: 87px;
+width: 30px;
+text-align: center;
+}
+.login_box{
+	width: 600px;
+margin: 30px auto;
+}
+.login {
+    position: absolute;
+    width: 320px;
+    height: 330px;
+    overflow: hidden;
+    padding: 10px;
+    top: 100px;
+    right: 135px;
+}
 /*首页滚动*/
 .focus_m li > a > img{
 	width: 100%;

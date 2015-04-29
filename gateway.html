@@ -19,8 +19,12 @@
 
 	<body class="bureau-body gateway-body" style="background: #fff;">
 		<div class="bottom_tools">
-             <a id="scrollUp" href="javascript:;"></a>
-        </div>
+  <div class="qr_tool"><a href="#">二维码</a></div>
+  <a id="feedback" href="javascript:;" >意见反馈</a>
+  <a id="deedback" href="javascript:;" >下载</a>
+  <a id="scrollUp" href="javascript:;" ></a>
+  <img class="qr_img" src="img/qr_img.png">
+</div>
 
 		<div class="navbar navbar-zhijiao navbar-bureau navbar-fixed-top">
 			<div class="container">
@@ -115,21 +119,19 @@
 		<div class="container-fluid bureau-navlist">
 			<div class="container ">
 				<div class="col-md-12">
-					<div class="bureau-logo col-md-8">
+					<div class="bureau-logo col-md-3">
 						<img src="img/gateway-logo.png">
 					</div>
-					<div class="edu-download  col-md-4" style="line-height: 86px;">
-            		   	   <div class="col-md-6" style="background: url(img/ios-img.png) no-repeat right;">
-            		   	   	<a title="" data-original-title="" href="#">
-            		   	   		<img src="img/ios-bg-img.png">
-            		   	   	</a>
-            		   	   </div>
-            		   	   <div class="col-md-6" style="background: url(img/android-img.png) no-repeat right;">
-            		   	   	 	<a title="" data-original-title="" href="#">
-            		   	   		<img src="img/android-bg-img.png">
-            		   	   	</a>
-            		   	   </div>
-            		   </div>
+			        <div class="col-md-9 denglu-gateway">
+			        	<ul class="inline-block-ul pull-right clear-margin">
+			        		<li><a href="#" type="button"  data-toggle="modal" data-target="#myModal" style="color: red;">登陆</a></li>
+			        		<li style="width: 10px;"><span>|</span></li>
+			        		<li><a href="#">注册</a></li>
+			        		<li><a href="#"><img src="img/weibo1.png"/></a></li>
+			        		<li><a href="#"><img src="img/wechat1.png"/></a></li>
+			        	</ul>
+			        </div>
+			       
 				</div>
 			</div>
 		</div>
@@ -146,50 +148,7 @@
 		</div>
 		<div class="container-fluid clear-padding">
 			<div class="focus" id="focus">
-	<div class="login_box">
-		<div class="login">
-			<div class="login_bg"></div>
-			<div class="login_content"> 
-				<!--login main start-->
-				<ul id="login_main" class="login_main clear-padding clear-margin">
-		
-		<li class="li_0 col-md-12 clear-padding"><a   title="上一张" hidefocus="true" href="javascript:void(0)"   class="active"  >领信用户登录</a></li>
-		<li class="li_1 col-md-12 clear-padding"><a   title="上一张" hidefocus="true" href="javascript:void(0)"   >领信用户登录</a></li>
-				</ul>
-				<!--login main end--> 
-									<!--login sub start-->
-					<div id="login_sub" class="login_sub"> 
-						<!--login_` start-->
-						<div id="login_cnzz" class="login_cnzz">
-							<table>
-								<tbody>
-									<tr>
-										<td class="td_0">用户名：</td><td class="td_1"><input type="text" autocomplete="off" name="username_cnzz" id="username_cnzz" value="请填写用户名" tabindex="1"></td>
-									</tr>
-									<tr>
-										<td class="td_0">密　码：</td><td class="td_1"><input type="password" autocomplete="off" name="password_cnzz" id="password_cnzz" value="******" tabindex="2"></td>
-									</tr>
-									<tr>
-										<td class="td_0"></td><td class="td_2"><input type="checkbox" id="login_cnzz_remeber" autocomplete="off"> <label for="login_cnzz_remeber" style="font-weight: 100;">记住密码</label></td>
-									</tr>
-									
-									<tr>
-										<td></td><td class="td_4"><p class="clearFix"><span id="submit_cnzz"></span><a hidefocus="true" class="a_1" href="#">忘记密码</a></p></td>
-									</tr>
-									<tr>
-										<td colspan="2" id="error_cnzz" class="login_error"></td>
-									</tr>
-								</tbody>
-							</table>
-							<a class="register" id="register_cnzz"  hidefocus="true" href="#"></a>
-						</div>
-						<!--login_cnzz end--> 
-					</div>
-					<!--login sub end--> 
-										
-			</div>
-		</div>
-	</div>
+	
 	<div id="focus_m" class="focus_m">
 		<ul class="clear-margin clear-padding">
 			<li class="li_1"><a href="#" hidefocus="true"><img src="img/IMG_IMG.png"></a></li>
@@ -202,7 +161,7 @@
 </div>
             <div class="container-fluid" style="border-bottom: 1px solid #ccc;">
             	<div class="container" style="padding: 0 5px;">
-        	<div class="col-md-9 tongzhi-header">
+        	<div class="col-md-12 tongzhi-header">
 						<ul class="col-md-2 inline-block-ul clear-margin">
 							<li>通告</li>
 							<li class="tongzhi-ico"></li>
@@ -212,10 +171,10 @@
 							<a href="#" target=_blank>• 公布小一入学自行分配学位结果<span>2015-01-01</span></a>
 						</marquee>
 					</div>
-					<ul class="col-md-3 clear-margin gateway-ico-ico inline-block-ul">
+					<!--<ul class="col-md-3 clear-margin gateway-ico-ico inline-block-ul">
 						<li><a href="#" class="gateway-weibo"></a><i>关注我们</i></li>
 						<li><a href="#" class="gateway-weixin"></a><i>关注我们</i></li>
-					</ul>
+					</ul>-->
 </div>
             </div>
             <div class="container-fluid" style="background-color: #F2F2F2;">
@@ -431,9 +390,9 @@
 							<li class="clearfix">
 								<div class=" bureau-teacher-rizhi-list clear-padding clearfix">
 									<dt class="col-md-2">
-
+                                    <a href="#">
         	 						<img src="img/hredu-ico.png">
-
+                                    </a>
         	 					</dt>
 									<dd class="col-md-10">
 										<a href="#" class="text-space">热烈庆祝华容县教育云平台上线成功！</a>
@@ -444,9 +403,9 @@
 							<li class="clearfix">
 								<div class=" bureau-teacher-rizhi-list clear-padding clearfix">
 									<dt class="col-md-2">
-
+                                    <a href="#">
         	 						<img src="img/hredu-ico.png">
-
+                                    </a>
         	 					</dt>
 									<dd class="col-md-10">
 										<a href="#" class="text-space">热烈庆祝华容县教育云平台上线成功！</a>
@@ -541,7 +500,53 @@
 				<div class="col-md-12">Copyright @ 2011-2015 湖南领信教育网络发展有限公司版权所有 湘ICP备14001031号</div>
 			</div>
 		</div>
-
+        <!-- Modal -->
+<div class="modal fade " id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="login_box modal-dialog">
+		<div class="login">
+			<div class="login_bg"></div>
+			<div class="login_content"> 
+				<!--login main start-->
+				<ul id="login_main" class="login_main clear-padding clear-margin">
+		
+		<li class="li_0 col-md-12 clear-padding"><a   title="上一张" hidefocus="true" href="javascript:void(0)"   class="active"  >领信用户登录</a></li>
+		<li class="li_1 col-md-12 clear-padding"><a   title="上一张" hidefocus="true" href="javascript:void(0)"   >领信用户登录</a></li>
+				</ul>
+				<!--login main end--> 
+									<!--login sub start-->
+					<div id="login_sub" class="login_sub"> 
+						<!--login_` start-->
+						<div id="login_cnzz" class="login_cnzz">
+							<table>
+								<tbody>
+									<tr>
+										<td class="td_0">用户名：</td><td class="td_1"><input type="text" autocomplete="off" name="username_cnzz" id="username_cnzz" value="请填写用户名" tabindex="1"></td>
+									</tr>
+									<tr>
+										<td class="td_0">密　码：</td><td class="td_1"><input type="password" autocomplete="off" name="password_cnzz" id="password_cnzz" value="******" tabindex="2"></td>
+									</tr>
+									<tr>
+										<td class="td_0"></td><td class="td_2"><input type="checkbox" id="login_cnzz_remeber" autocomplete="off"> <label for="login_cnzz_remeber" style="font-weight: 100;">记住密码</label></td>
+									</tr>
+									
+									<tr>
+										<td></td><td class="td_4"><p class="clearFix"><span id="submit_cnzz"></span><a hidefocus="true" class="a_1" href="#">忘记密码</a></p></td>
+									</tr>
+									<tr>
+										<td colspan="2" id="error_cnzz" class="login_error"></td>
+									</tr>
+								</tbody>
+							</table>
+							<a class="register" id="register_cnzz"  hidefocus="true" href="#"></a>
+						</div>
+						<!--login_cnzz end--> 
+					</div>
+					<!--login sub end--> 
+										
+			</div>
+		</div>
+	</div>
+</div>
 		<!--***** 程序猿们，睁大你们的钛合金猿眼，“space-footer-css.js” 为公用JS库对应项目里的"space-footer-css.jsp"由前端维护-不需要引用该文件 *****-->
 		<script type="text/JavaScript" src="space-footer-css.js"></script>
 		<!--***** 程序猿们，睁大你们的钛合金猿眼，“space-footer-css.js” 为公用JS库对应项目里的"space-footer-css.jsp"由前端维护-不需要引用该文件 *****-->
