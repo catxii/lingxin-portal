@@ -8,11 +8,19 @@
 .focus_m li.li_2 {background:url(../images/2.jpg) center 0 no-repeat #76b7d8;}
 .focus_m li.li_3 {background:url(../images/3.jpg) center 0 no-repeat #bb3838;}*/
 .focus_s {height:0;position:relative;margin:0 auto;z-index:2;width:1000px;}
-.focus_s ul {height:12px;overflow:hidden;position:absolute;left:10px;top:360px;}
+.focus_s ul {
+height: 12px;
+overflow: hidden;
+position: absolute;
+top: 360px;
+left: 50%;
+margin: 0px !important;
+padding: 0px;
+}
 .focus_s li {float:left;cursor:pointer;height:12px;width:12px;overflow:hidden;margin-right:10px;}
 .focus_s li b {border-radius:50%;display:block;text-indent:-999em;background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.17);width:12px;height:12px;overflow:hidden;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=noscale, src='images/circle.png');_background:none;}
 .focus_s li.active{background: #fff;border-radius: 50%;}
-.focus_s li.active b {background: #fff;}
+.focus_s li.active b {background: none repeat scroll 0% 0% #62B651;}
 .focus_l,.focus_r {position:absolute;display:block;width:50px;height:75px;overflow:hidden;z-index:2;top:150px;}
 .focus_l {left:0;}
 .focus_r {right:0;}

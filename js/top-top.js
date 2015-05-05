@@ -9,7 +9,7 @@ $(function(){
 			var $footerHeight = $('.page-footer').outerHeight(true);
 			var $windowHeight = $(window).innerHeight();
 			scrollTop > 50 ? $("#scrollUp").fadeIn(200).css("display","block") : $("#scrollUp").fadeOut(200);			
-			$bottomTools.css("bottom", scrollHeight - scrollTop - $footerHeight > $windowHeight ? 40 : $windowHeight + scrollTop + $footerHeight + 40 - scrollHeight);
+			$bottomTools.css("bottom", scrollHeight - scrollTop - $footerHeight > $windowHeight ? 0 : $windowHeight + scrollTop + $footerHeight + 0 - scrollHeight);
 		});
 		$('#scrollUp').click(function (e) {
 			e.preventDefault();
