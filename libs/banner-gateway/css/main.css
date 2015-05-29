@@ -1,18 +1,18 @@
 
 
 /*focus*/
-.focus {height:390px;overflow:hidden;position:relative;background:#ccc;}
-.focus_m ul {width:100%;height:390px;overflow:hidden;}
-.focus_m li {width:100%;height:390px;margin: auto; text-align: center;}
+.focus {height:320px;overflow:hidden;position:relative;background:#ccc;}
+.focus_m ul {width:100%;height:320px;overflow:hidden;}
+.focus_m li {width:100%;height:320px;margin: auto; text-align: center;}
 /*.focus_m li.li_1 {background:url(../images/1.jpg) center 0 no-repeat #288cc0;}
 .focus_m li.li_2 {background:url(../images/2.jpg) center 0 no-repeat #76b7d8;}
 .focus_m li.li_3 {background:url(../images/3.jpg) center 0 no-repeat #bb3838;}*/
-.focus_s {height:0;position:relative;margin:0 auto;z-index:2;width:1000px;}
+.focus_s {height:0;position:relative;margin:0 auto;z-index:2;}
 .focus_s ul {
 height: 12px;
 overflow: hidden;
 position: absolute;
-top: 360px;
+top: 290px;
 left: 50%;
 margin: 0px !important;
 padding: 0px;
@@ -21,7 +21,22 @@ padding: 0px;
 .focus_s li b {border-radius:50%;display:block;text-indent:-999em;background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.17);width:12px;height:12px;overflow:hidden;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=noscale, src='images/circle.png');_background:none;}
 .focus_s li.active{background: #fff;border-radius: 50%;}
 .focus_s li.active b {background: none repeat scroll 0% 0% #62B651;}
-.focus_l,.focus_r {position:absolute;display:block;width:50px;height:75px;overflow:hidden;z-index:2;top:150px;}
+.focus_l,.focus_r {
+position: absolute;
+display: block;
+width: 31px;
+height: 57px;
+overflow: hidden;
+z-index: 2;
+top: 127px;
+background: rgba(0, 0, 0, 0.14);
+}
+.focus_l i,.focus_r i{
+	display: block;
+font-size: 40px;
+padding: 8px 6px;
+color: rgb(255, 255, 255);
+}
 .focus_l {left:0;}
 .focus_r {right:0;}
 .focus_l b,.focus_r b {position:absolute;z-index:1;display:block;width:50px;height:75px;overflow:hidden;background:#000;opacity:0.3;filter:alpha(opacity=30);cursor:pointer;}
