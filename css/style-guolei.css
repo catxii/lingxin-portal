@@ -374,6 +374,221 @@ body .info_wrapper{ padding-bottom: 100px;}
 
 
 
+/*============2015.05.27 门户论坛样式============*/
+
+.txt-green{ color: #1ea258;}
+.ico-edit{
+	background-color: #5ac2d1;
+	border-radius: 3px;
+	color: #FFF;
+	padding: 10px;
+	font-size: 40px;
+}
+.gateway-map a, .gateway-map input, .gateway-map select {
+    font-size: 12px;
+}
+
+
+/*论坛*/
+.gateway-luntan{margin-top: 20px; margin-bottom: 30px;}
+.gateway-luntan .luntan-adv img{ width: 100%;}
+.gateway-luntan .luntan-content{ margin-top: 10px;}
+.gateway-luntan .luntan-content .luntan-tips{ color: #999;}
+.gateway-luntan .luntan-content .luntan-tips li{ border-right: #F2F2F2 solid 1px;}
+
+.gateway-luntan .luntan-content .forum-board{ border: #bad9f0 solid 1px; border-top:0px;} 
+.gateway-luntan .luntan-content .forum-board .forum-board-colum{ border:0px; margin-bottom:0px; border-radius: 0px;  box-shadow: none;}
+.gateway-luntan .luntan-content .forum-board .panel-heading{
+	padding: 10px 10px;
+	color: #4692a4;
+	font-weight: bold;
+	background: -webkit-gradient(linear, left top, left bottom, from(white), to(#eeeeee));
+	background:-moz-linear-gradient(top, white, #eeeeee);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=＃ffffff,endColorstr=＃eeeeee,grandientType=1);
+}
+.gateway-luntan .luntan-content .forum-board .panel-body{ padding: 0px 10px;}
+.gateway-luntan .luntan-content .forum-board .forum-board-colum .board-row{}
+.gateway-luntan .luntan-content .forum-board .forum-board-colum .board-row li{ margin-top: 10px; border-bottom: #F2F2F2 dotted 1px;}
+.gateway-luntan .luntan-content .forum-board .forum-board-colum .board-row li:last-child{border-bottom: 0px;}
+.gateway-luntan .luntan-content .forum-board .forum-board-colum .board-row .board-col{ margin-bottom: 10px;}
+.gateway-luntan .luntan-content .forum-board .forum-board-colum .board-row .board-col dt{ width: auto;}
+.gateway-luntan .luntan-content .forum-board .forum-board-colum .board-row .board-col dd{ 	
+	margin-left: 70px;
+	/*margin: 0px;
+	padding: 0px;*/
+	font-size: 12px;
+}
+.gateway-luntan .luntan-content .forum-board .forum-board-colum .board-row .board-col dd p{
+    line-height: 20px;
+    margin: 0px;
+}
+
+
+.gateway-luntan .luntan-content .news-colum{ padding-left: 15px; padding-right: 0px;}
+.gateway-luntan .luntan-content .news-colum .news-colum-list{ border-bottom:#e6e6e6 solid 1px; padding-bottom: 10px; margin-bottom: 20px;}
+.gateway-luntan .luntan-content .news-colum .news-colum-list h5{ border:#cccccc solid 1px; background-color: #eee; padding: 10px; margin-top: 0px; }
+.gateway-luntan .luntan-content .news-colum .news-colum-list ul li{ border-bottom: 0px; padding: 2px 0px;}
+.gateway-luntan .luntan-content .news-colum .news-colum-list ul li a{color: #4c9ed9;}
+.gateway-luntan .luntan-content .news-colum .news-colum-list ul li a i{ color: #999999; margin:0px 8px 0px 0px;}
+.gateway-luntan .luntan-content .news-colum .news-colum-list .news-list-more{ float: right; font-size: 12px; color: #4c9ed9; padding-top: 10px;}
+
+.gateway-luntan .luntan-content .news-colum .day-sign .but-sign{ background-color: #09aa83; color: #FFF; padding: 3px 8px; border-radius: 3px; font-size: 12px;}
+
+
+/*地图*/
+.gateway-map{ 
+  position: relative;
+  width: 100%;
+  z-index: 0;
+  overflow: hidden;
+  border-top: 1px solid #b5b9c0;
+}
+.gateway-map .map-info {
+  z-index: 50;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 382px;
+  border-right: 1px solid #b5b9c0;
+}
+/*.gateway-map .map-show{
+	position: absolute;
+	
+}*/
+.gateway-map #sideWrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 56px;
+  background-color: #252525;
+}
+/*.gateway-map .nav__bg-slider {
+  width: 56px;
+  height: 60px;
+  position: absolute;
+  z-index: 1;
+  background-color: #1dd0a5;
+}*/
+.gateway-map ul.nav-list{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+  list-style: none;
+  padding: 0;
+}
+ul.nav-list li {
+    overflow: hidden;
+    text-align: center;
+}
+ul.nav-list .icon {
+    display: block;
+    height: 18px;
+    margin: 12px auto 5px;
+    width: 17px;
+    color: #FFF;
+    font-size: 16px;
+}
+ul.nav-list li.selected a{ color: #FFF;}
+
+ul.nav-list a:hover, ul.nav-list .selected a {
+	background-color: #1dd0a5;
+	color: #FFF;
+	cursor: pointer;
+}
+ul.nav-list a {
+    display: inline-block;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    width: 56px;
+    color: #999;
+}
+
+
+#mapInfoWrapper {
+    left: 56px;
+    position: absolute;
+    top: 0;
+    width: 325px;
+}
+
+/*a {
+    color: #00c;
+    cursor: pointer;
+    outline: 0 none;
+    text-decoration: underline;
+}*/
+
+.school-index-box{  font-size: 12px; background-color: #fafcff; padding: 20px;}
+.school-index-box .school-special-list{ margin: 0px;  text-align: center;}
+.school-index-box .school-special-list li i{ 
+	color: #FFF;
+	border-radius: 5px;
+	padding: 10px;
+	display: inline-block;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+i.ico-search{ 
+	background-color: #ad8871; 	
+} 
+i.ico-school{ 
+	background-color: #ffab37; 	
+} 
+i.ico-point{ 
+	background-color: #3fd979; 	
+} 
+i.ico-set{ 
+	background-color: #2680dc; 	
+} 
+
+.school-select-index{ padding: 15px;}
+.school-select-index .select2-container .select2-choice{ color:#FFF; border: #0eb555 solid 1px; background: #2ecc71; height: 34px; line-height: 34px;}
+.school-select-index .select2-container .select2-choice .select2-arrow{ border-left: #3fe385 solid 1px; background: #2ecc71;}
+.school-select-index .select-box{ margin-top: 10px;}
+.school-select-index .btn-submit{ margin-top: 10px;}
+
+.select2-search input{ margin-top: 5px;}
+.select2-drop .select2-drop-above .select2-drop-active{  border-top: 1px solid #2ecc71;}
+.select2-drop-active { border: 1px solid #2ecc71;}
+.select2-results .select2-highlighted { background: #2ecc71;}
+
+.active-search .form-control{ border: #0cb353 solid 1px;}
+.active-search .input-group-addon{border: #0cb353 solid 1px; background-color: #0cb353; }
+.active-search .input-group-addon span{color: #FFF; font-size: 16px;}
+
+#shad div {
+    position: absolute;
+}
+.mapinfo_but{
+    height: 64px;
+    left: 381px;
+    overflow: hidden;
+    position: absolute;
+    width: 18px;
+    z-index: 200;
+}
+
+.mapinfo_but_con {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #fff;
+    border-color: #a0a1a3 #a0a1a3 #a0a1a3 #FFF;
+    border-image: none;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px 0;
+    cursor: pointer;
+    height: 56px;
+    line-height: 56px;
+    width: 14px;
+    padding-left: 3px;
+}
+
 
 
 /*========Moblie=======*/

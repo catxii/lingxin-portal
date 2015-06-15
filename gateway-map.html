@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="icon" href="../../favicon.ico">
+
+		<title>领信样式模板</title>
+
+		<!--***** “space-css.js” 为公用CSS库对应项目里的"space-css.jsp"由前端维护-不需要引用该文件 *****-->
+		<script type="text/JavaScript" src="space-css.js"></script>
+		<!--***** “space-css.js” 为公用CSS库对应项目里的"space-css.jsp"由前端维护-不需要引用该文件 *****-->
+
+	</head>
+
+	<body class="bureau-body gateway-body"  style="background-color: #FFF;">
+		
+		<nav class="navbar navbar-zhijiao navbar-bureau navbar-fixed-top">
+			<div class="container clear-padding">
+				<div class="navbar-header">
+					<button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+				</div>
+				<div class="navbar-collapse collapse">
+					<div class="lx-logo">
+						<img src="img/logo-logo.png">
+					</div>
+					<ul class="nav navbar-nav" style="position: relative;">
+						<li class="active">
+							<a href="#about">首  页</a>
+						</li>
+						<li>
+							<a href="#contact">领信社区</a>
+						</li>
+						<li>
+							<a href="#contact">领信教育</a>
+						</li>
+						<li class="dropdown" style="position:initial;">
+							<a href="#"> 应用商城</a>
+						</li>
+						<li>
+							<a href="#contact">教育资源</a>
+						</li>
+						<li>
+							<a href="#contact">学校导航</a>
+						</li>
+					</ul>
+
+					<ul class="nav inline-block-ul navbar-right clear-margin">
+						<li><a href="#" type="button" data-toggle="modal" data-target="#myModal">登陆</a>
+						</li>
+						<li><a href="#">注册</a>
+						</li>
+					</ul>
+
+				</div>
+
+				<!--/.nav-collapse -->
+			</div>
+		</nav>
+
+			
+		<div class="container-fluid gateway-map"  style="margin-top: 84px;">
+			<div class="map-show" id="map_show" style="height: 502px; position:relative; overflow: hidden;text-align: left;margin-left: 369px; ">
+				 dfasdfasdfas
+			</div>
+			
+		    <div class="map-info" id="map_info">
+			   <div id="MapInfoCon" style="display: block;">
+				   <div id="sideWrapper">
+				      <!--<div class="nav__bg-slider" id="nav_bg_slider"></div>-->
+				      
+				      <ul class="nav-list" id="nav_menu_list">
+				          <li id="search_menu" class="selected nav-list__tab--selected">
+				             <a data-index="1" class="nav-search-item first-item">
+				             <!--<img alt="搜索" src="img/portal/transparent.gif">-->
+				             <span class="icon glyphicon glyphicon-search"></span>
+				             <span>搜索</span>
+				             </a>
+				         </li>
+				         <li id="route_menu" class="">
+				            <a data-index="2" class="route-item">
+				            <span class="icon glyphicon glyphicon-road"></span>
+				            <span>路线</span>
+				            </a>
+				        </li>
+				        <li id="subway_menu" class="">
+				            <a data-index="3" class="subway-item">
+				            <span class="icon icon-bus"></span>
+				            <span>地铁</span>
+				            </a>
+				        </li>
+				        <li id="fav_menu" class="">
+				            <a data-index="4" class="fav-item">
+				            <span class="icon glyphicon glyphicon-star"></span>
+				            <span>收藏</span>
+				            </a>
+				        </li>
+				        
+				    </ul>
+				</div><!--/.#sideWrapper-->
+				
+				<div id="mapInfoWrapper">
+					<div class="school-index-box clearfix">
+						 <ul class="list-inline school-special-list clearfix" id="nav_menu">
+						 	<li class="col-md-3 clear-padding">
+						 		<a href="#">
+						 		<div><i class="ico-search glyphicon glyphicon-search"></i></div>
+						 		<span>学校</span>
+						 		</a>
+						 	</li>
+						 	<li class="col-md-3 clear-padding">
+						 		<a href="#">
+						 		<div><i class="ico-school glyphicon icon-home"></i></div>
+						 		<span>平安到校</span>
+						 		</a>
+						 	</li>
+						 	<li class="col-md-3 clear-padding">
+						 		<a href="#">
+						 		<div><i class="ico-point glyphicon glyphicon-map-marker"></i></div>
+						 		<span>定位</span>
+						 		</a>
+						 	</li>
+						 	<li class="col-md-3 clear-padding">
+						 		<a href="#">
+						 		<div><i class="ico-set glyphicon glyphicon-cog"></i></div>
+						 		<span>设置</span>
+						 		</a>
+						 	</li>
+						 </ul>
+					</div>
+					
+					<div class="school-select-index clearfix">
+						<form class="form-inline">
+						  <!--省会搜索-->
+						  <div class="select-box col-md-12">
+						      <div class="form-group col-md-4">
+								  <select class="select2-box but-select" style="width: 100%;">
+					                  <option>全部</option>
+					                  <option>北京市</option>
+					                  <option>广东省</option>
+					              </select>                   
+	                          </div>                       
+							  <div class="form-group col-md-8">
+							    <div class="input-group active-search">
+							      <input type="text" class="form-control"  id="exampleInputAmount" placeholder="省会搜索">
+							      <div class="input-group-addon "><a href="#"><span class="glyphicon glyphicon-search"></span></a></div>
+							    </div>
+							  </div>						  
+						  </div>
+						  <!--地市搜索-->
+						  <div class="select-box col-md-12">
+						      <div class="form-group col-md-4">
+								  <select class="select2-box but-select" style="width: 100%;" disabled>
+					                  <option>全部</option>
+					                  <option>北京市</option>
+					                  <option>广东省</option>
+					              </select>                   
+	                          </div>                       
+							  <div class="form-group col-md-8">			
+							    <div class="input-group active-search">
+							      <input type="text" class="form-control" placeholder="地市搜索" disabled>
+							      <div class="input-group-addon "><a href="#"><span class="glyphicon glyphicon-search"></span></a></div>
+							    </div>
+							  </div>						  
+						  </div>
+						  <!--学校搜索-->
+						  <div class="select-box col-md-12">
+						      <div class="form-group col-md-4">
+								  <select class="select2-box but-select" style="width: 100%;">
+					                  <option>全部</option>
+					                  <option>北京市</option>
+					                  <option>广东省</option>
+					              </select>                   
+	                          </div>                       
+							  <div class="form-group col-md-8">
+							    <div class="input-group active-search">
+							      <input type="text" class="form-control" id="exampleInputAmount" placeholder="学校搜索">
+							      <div class="input-group-addon "><a href="#"><span class="glyphicon glyphicon-search"></span></a></div>
+							    </div>
+							  </div>						  
+						  </div>
+						  <div class="col-md-3 col-md-offset-9 btn-submit">
+						     <button type="submit" class="btn btn-danger">确定</button>
+						  </div>
+						</form>
+					</div>
+
+				</div><!--/.mapInfoWrapper-->
+
+			</div><!--/.MapInfoCon-->
+			
+			<!--收起左侧栏-->
+			<div id="shad" class="map-info__tab">
+	               <div style="top: 219px;" id="MapInfoTab" class="mapinfo_but " title="收起左栏">               	  
+					  <div class="mapinfo_but_con">
+						 <span class="fa fa-angle-left"></span>
+					  </div>
+	               </div>
+	        </div><!--/.map-info__tab--> 
+		  </div><!--/.map-info-->		  		  
+            
+		</div><!--/.gateway-map-->
+		 
+		 
+		<!--常用链接-->
+		<div class="c-link edu-gateway" style="margin-top: 0px;">
+			<div class=" container">
+
+			</div>
+		</div>
+		<!-- 底部 -->
+		<div class="container-fluid footer footer-grayline" style="display: block;">
+			<div class="">
+				<ul class="col-md-12 inline-block-ul">
+					<li><a href="#">关于我们</a>
+					</li>
+					<li>|</li>
+					<li><a href="#">联系我们</a>
+					</li>
+					<li>|</li>
+					<li><a href="#">友情链接</a>
+					</li>
+					<li>|</li>
+					<li><a href="#">关于我们</a>
+					</li>
+					<li>|</li>
+					<li><a href="#">关于我们</a>
+					</li>
+				</ul>
+			</div>
+			<div class="">
+				<div class="col-md-12">Copyright @ 2011-2015 湖南领信教育网络发展有限公司版权所有 湘ICP备14001031号</div>
+			</div>
+		</div>
+
+		<!--***** 程序猿们，睁大你们的钛合金猿眼，“space-footer-css.js” 为公用JS库对应项目里的"space-footer-css.jsp"由前端维护-不需要引用该文件 *****-->
+		<script type="text/JavaScript" src="space-footer-css.js"></script>
+		<!--***** 程序猿们，睁大你们的钛合金猿眼，“space-footer-css.js” 为公用JS库对应项目里的"space-footer-css.jsp"由前端维护-不需要引用该文件 *****-->
+		<script type="text/javascript" src="libs/banner-gateway/js/index.js"></script>
+		<script type="text/javascript" src="js/zzsc.js"></script>
+		<link href="libs/banner-gateway/css/main.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="js/jquery.pause.min.js"></script>
+		<script type="text/javascript" src="js/weiboscroll.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/index_feng.css" media="screen">
+		
+		<script type="text/javascript">
+            window.onload=function(){
+            	var oMapInfo=document.getElementById("map_info");
+            	var oMapBut=document.getElementById("MapInfoTab");
+			   	var oMapShow=document.getElementById("map_show");
+			   	var oMapInfoCon=document.getElementById("MapInfoCon");
+			   	var oIcon=oMapBut.getElementsByTagName("span")[0];
+
+			   	oMapBut.onclick=function(){
+			   		if(oMapInfoCon.style.display=="block"){
+				   		oMapInfoCon.style.display="none";
+				   		oMapShow.style.marginLeft="0px";			   		
+				   	    oMapInfo.style.width="0px";
+				   	    oMapBut.style.left="0px";
+				   	    oIcon.className="fa fa-angle-right";
+			   	   }else{
+			   	   	    oMapInfoCon.style.display="block";
+				   		oMapShow.style.marginLeft="369px";			   		
+				   	    oMapInfo.style.width="382px";
+				   	    oMapBut.style.left="381px";
+				   	    oIcon.className="fa fa-angle-left";
+			   	   }
+			   		
+			   		
+			   	}
+			  
+			   	
+            }
+
+		</script>
+
+	</body>
+
+</html>
