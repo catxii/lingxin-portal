@@ -1272,7 +1272,6 @@ float: right;
 	 overflow: hidden;
 text-overflow: ellipsis;
 white-space: nowrap;
-display: inline-block;
 vertical-align: middle;
 	 font-size: 12px;
 	 }
@@ -1611,8 +1610,8 @@ margin-right: 4px;
 /*常用链接*/
 
 .c-link{
-	min-height: 164px;
-background: #F2F2F2 none repeat scroll 0% 0%;
+	min-height: 100px;
+background: #FBFBFB none repeat scroll 0% 0%;
 border-top: 1px solid #FFF;
 margin-top: 30px;
 padding: 12px 0px;
@@ -2206,7 +2205,7 @@ background: none repeat scroll 0% 0% #FFF;
 border-right: 1px solid #DDD;
 border-width: 2px 0px 1px;
 border-style: solid;
-border-color: #1F90DF rgba(221, 221, 221, 0) #ddd;
+border-color: #fff rgba(221, 221, 221, 0) #ddd;
 -moz-border-top-colors: none;
 -moz-border-right-colors: none;
 -moz-border-bottom-colors: none;
@@ -2290,7 +2289,7 @@ text-indent: 3px;
 }
 .gateway-new-list-new > ul.gateway-new-list-contant > li{
 	background: none repeat scroll 0% 0% #FFF;
-border: 1px solid #EDEDED;
+border: 1px solid rgb(240, 240, 240);
 float: left;
 padding: 15px 20px;
 margin: 0 5px;
@@ -2305,13 +2304,11 @@ transition:border 0.5s ease 0s;
 	-moz-box-shadow:0 2px 4px #dbdbdb;
 }
 .gateway-new-list-contant .ydate_2 {
-    border: 1px solid #EDEAF1;
     color: #5B317D;
-    background: none repeat scroll 0% 0% #EDEAF1;
+    background: #F8F8F8 none repeat scroll 0% 0%;
 }
 .gateway-new-list-contant .ydate {
     width: 58px;
-    border: 1px solid #D8D8D8;
     color: #458CBF;
     text-align: center;
     font-size: 12px;
@@ -3134,3 +3131,25 @@ font-size: 12px;
 .footer-grayline a{
 	color: #999;
 }
+/*领信首页*/
+.platform-lx{
+	margin-top: 20px;
+}
+.platform-lx-text{
+	margin-top: 18px;
+}
+.platform-lx-text > h5{
+	font-size: 16px;
+}
+.platform-lx-text > p{
+	font-size: 12px;
+color: #5C5C5C;
+line-height: 23px;
+max-height: 64px;
+overflow: hidden;
+margin-bottom: 0;
+width: 324px;
+}
+
+
+
