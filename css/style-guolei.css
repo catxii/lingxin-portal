@@ -84,6 +84,42 @@ border-color: #dddddd;
   text-align: center;
 }
 
+
+/*分页*/
+.footer-page ul.pagination li a{
+	border-radius: 0;
+}
+.footer-page ul.pagination li.disabled span{ font-size: 14px;}
+body .footer-page .pagination > li:first-child > a, .pagination > li:first-child > span {
+	border-radius: 0;
+}
+
+.footer-page ul.pagination .disabled a, 
+.footer-page ul.pagination .disabled a:focus, 
+.footer-page ul.pagination .disabled a:hover, 
+.footer-page ul.pagination .disabled span, 
+.footer-page ul.pagination .disabled span:focus, 
+.footer-page ul.pagination .disabled span:hover{
+  color: #777;
+  cursor: not-allowed;
+  background-color: #fff;
+  border-color: #ddd;
+}
+
+.footer-page ul.pagination li a:hover, 
+.footer-page ul.pagination li a:focus,
+.footer-page ul.pagination li span:focus,
+.footer-page ul.pagination li span:hover
+{
+	background-color: #28b385;
+	color: #FFF;
+	text-decoration: none !important;
+}
+.footer-page ul.pagination li.active a{ 
+	background-color: #28b385;	
+}
+
+
 /*按钮颜色*/
 .btn-primary {
   background: #2ecc71;
